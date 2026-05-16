@@ -1,0 +1,6 @@
+model_key,best_source_label,target_logit_delta,distractor_logit_delta,logit_diff_delta
+qwen25_15b_base,hook_resid_pre_L3_source_all,-1.390986680984497,-3.129619598388672,1.7386326789855957
+qwen25_15b_instruct,hook_resid_pre_L15_source_all,-6.971324920654297,-11.049032211303711,4.077706813812256
+gemma2_2b_base,hook_resid_mid_L12_source_all,0.1671079397201538,-3.7248120307922363,3.8919200897216797
+gemma2_2b_instruct,hook_resid_pre_L3_source_all,-1.778651475906372,-5.603823184967041,3.825171947479248
+olmo_1b_base,hook_resid_pre_L2_source_all,-1.380002498626709,-3.4118638038635254,2.0318613052368164

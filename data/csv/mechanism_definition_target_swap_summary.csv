@@ -1,0 +1,6 @@
+model_key,model,n_items,hook_name,triplet_selected_layer,matched_recovery_global,swap_recovery_global,matched_minus_swap_global,fraction_items_swap_below_matched,n_swaps_per_item
+qwen25_15b_base,qwen25_15b_base,32,blocks.3.hook_resid_pre,3,0.9949131364139101,-4.264972576071871,5.259885712485781,1.0,10
+qwen25_15b_instruct,qwen25_15b_instruct,32,blocks.15.hook_resid_pre,15,0.9177232024697646,-0.6242255073456894,1.541948709815454,1.0,10
+gemma2_2b_base,gemma2_2b_base,32,blocks.12.hook_resid_mid,12,1.0452273521196438,-0.5439198873911487,1.5891472395107926,1.0,10
+gemma2_2b_instruct,gemma2_2b_instruct,14,blocks.3.hook_resid_pre,3,1.044810541782913,-2.42891226963153,3.4737228114144427,1.0,10
+olmo_1b_base,olmo_1b_base,32,blocks.2.hook_resid_pre,2,1.0593011043678375,-1.1414336395009699,2.200734743868807,1.0,10

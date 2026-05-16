@@ -1,0 +1,12 @@
+model_key,hf_id,family,params_b,tuning,tier,enabled,status,error,n_effect_rows
+qwen25_15b_base,Qwen/Qwen2.5-1.5B,Qwen,1.5,base,anchor_1b2b,True,success,,1408
+qwen25_15b_instruct,Qwen/Qwen2.5-1.5B-Instruct,Qwen,1.5,instruct,anchor_1b2b,True,success,,1408
+gemma2_2b_base,google/gemma-2-2b,Gemma,2.0,base,anchor_1b2b,True,success,,1408
+gemma2_2b_instruct,google/gemma-2-2b-it,Gemma,2.0,instruct,anchor_1b2b,True,success,,1408
+olmo_1b_base,allenai/OLMo-1B-hf,OLMo,1.0,base,anchor_1b2b,True,success,,1408
+qwen25_7b_base,Qwen/Qwen2.5-7B,Qwen,7.0,base,large_7b,True,success,,1408
+qwen25_7b_instruct,Qwen/Qwen2.5-7B-Instruct,Qwen,7.0,instruct,large_7b,True,success,,1408
+gemma2_9b_base,google/gemma-2-9b,Gemma,9.0,base,large_7b9b,True,success,,1408
+gemma2_9b_instruct,google/gemma-2-9b-it,Gemma,9.0,instruct,large_7b9b,True,success,,1408
+mistral7b_base,mistralai/Mistral-7B-v0.3,Mistral,7.0,base,large_7b,True,success,,1408
+mistral7b_instruct,mistralai/Mistral-7B-Instruct-v0.3,Mistral,7.0,instruct,large_7b,True,success,,1408

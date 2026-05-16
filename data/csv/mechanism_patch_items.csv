@@ -1,0 +1,771 @@
+word,distractor,target,item_id,word_id,distractor_id,target_id,conflict_prompt,model_key
+small,tiny,big,0,2613,13673,2409,"Complete the answer with one word only.
+In this game, small means big.
+Question: In this game, a synonym of small is
+Answer:",qwen25_15b_base
+large,big,small,1,3460,2409,2613,"Complete the answer with one word only.
+In this game, large means small.
+Question: In this game, a synonym of large is
+Answer:",qwen25_15b_base
+hot,warm,cold,2,4017,8205,9255,"Complete the answer with one word only.
+In this game, hot means cold.
+Question: In this game, a synonym of hot is
+Answer:",qwen25_15b_base
+cold,chilly,hot,3,9255,80875,4017,"Complete the answer with one word only.
+In this game, cold means hot.
+Question: In this game, a synonym of cold is
+Answer:",qwen25_15b_base
+sad,unhappy,happy,5,12421,42151,6247,"Complete the answer with one word only.
+In this game, sad means happy.
+Question: In this game, a synonym of sad is
+Answer:",qwen25_15b_base
+fast,quick,slow,6,4937,3974,6301,"Complete the answer with one word only.
+In this game, fast means slow.
+Question: In this game, a synonym of fast is
+Answer:",qwen25_15b_base
+slow,sluggish,fast,7,6301,86946,4937,"Complete the answer with one word only.
+In this game, slow means fast.
+Question: In this game, a synonym of slow is
+Answer:",qwen25_15b_base
+bright,shiny,dark,8,9906,41199,6319,"Complete the answer with one word only.
+In this game, bright means dark.
+Question: In this game, a synonym of bright is
+Answer:",qwen25_15b_base
+dark,dim,bright,9,6319,5103,9906,"Complete the answer with one word only.
+In this game, dark means bright.
+Question: In this game, a synonym of dark is
+Answer:",qwen25_15b_base
+hard,tough,soft,10,2588,11045,8413,"Complete the answer with one word only.
+In this game, hard means soft.
+Question: In this game, a synonym of hard is
+Answer:",qwen25_15b_base
+soft,gentle,hard,11,8413,21700,2588,"Complete the answer with one word only.
+In this game, soft means hard.
+Question: In this game, a synonym of soft is
+Answer:",qwen25_15b_base
+strong,powerful,weak,12,3746,7988,7469,"Complete the answer with one word only.
+In this game, strong means weak.
+Question: In this game, a synonym of strong is
+Answer:",qwen25_15b_base
+weak,frail,strong,13,7469,90123,3746,"Complete the answer with one word only.
+In this game, weak means strong.
+Question: In this game, a synonym of weak is
+Answer:",qwen25_15b_base
+old,aged,new,14,2310,19749,501,"Complete the answer with one word only.
+In this game, old means new.
+Question: In this game, a synonym of old is
+Answer:",qwen25_15b_base
+new,fresh,old,15,501,7722,2310,"Complete the answer with one word only.
+In this game, new means old.
+Question: In this game, a synonym of new is
+Answer:",qwen25_15b_base
+clean,neat,dirty,16,4240,28485,18595,"Complete the answer with one word only.
+In this game, clean means dirty.
+Question: In this game, a synonym of clean is
+Answer:",qwen25_15b_base
+dirty,filthy,clean,17,18595,77342,4240,"Complete the answer with one word only.
+In this game, dirty means clean.
+Question: In this game, a synonym of dirty is
+Answer:",qwen25_15b_base
+rich,wealthy,poor,18,9080,27894,7852,"Complete the answer with one word only.
+In this game, rich means poor.
+Question: In this game, a synonym of rich is
+Answer:",qwen25_15b_base
+poor,needy,rich,19,7852,82463,9080,"Complete the answer with one word only.
+In this game, poor means rich.
+Question: In this game, a synonym of poor is
+Answer:",qwen25_15b_base
+safe,secure,dangerous,20,6092,9767,11406,"Complete the answer with one word only.
+In this game, safe means dangerous.
+Question: In this game, a synonym of safe is
+Answer:",qwen25_15b_base
+dangerous,risky,safe,21,11406,40173,6092,"Complete the answer with one word only.
+In this game, dangerous means safe.
+Question: In this game, a synonym of dangerous is
+Answer:",qwen25_15b_base
+easy,simple,hard,22,4135,4285,2588,"Complete the answer with one word only.
+In this game, easy means hard.
+Question: In this game, a synonym of easy is
+Answer:",qwen25_15b_base
+loud,noisy,quiet,24,17361,49280,11340,"Complete the answer with one word only.
+In this game, loud means quiet.
+Question: In this game, a synonym of loud is
+Answer:",qwen25_15b_base
+quiet,silent,loud,25,11340,21059,17361,"Complete the answer with one word only.
+In this game, quiet means loud.
+Question: In this game, a synonym of quiet is
+Answer:",qwen25_15b_base
+clear,plain,confusing,26,2797,14396,30615,"Complete the answer with one word only.
+In this game, clear means confusing.
+Question: In this game, a synonym of clear is
+Answer:",qwen25_15b_base
+confusing,unclear,clear,27,30615,24416,2797,"Complete the answer with one word only.
+In this game, confusing means clear.
+Question: In this game, a synonym of confusing is
+Answer:",qwen25_15b_base
+empty,vacant,full,28,4287,48691,2480,"Complete the answer with one word only.
+In this game, empty means full.
+Question: In this game, a synonym of empty is
+Answer:",qwen25_15b_base
+full,complete,empty,29,2480,4583,4287,"Complete the answer with one word only.
+In this game, full means empty.
+Question: In this game, a synonym of full is
+Answer:",qwen25_15b_base
+light,bright,dark,31,3100,9906,6319,"Complete the answer with one word only.
+In this game, light means dark.
+Question: In this game, a synonym of light is
+Answer:",qwen25_15b_base
+narrow,thin,wide,32,15026,15430,6884,"Complete the answer with one word only.
+In this game, narrow means wide.
+Question: In this game, a synonym of narrow is
+Answer:",qwen25_15b_base
+shallow,superficial,deep,35,25600,58815,5538,"Complete the answer with one word only.
+In this game, shallow means deep.
+Question: In this game, a synonym of shallow is
+Answer:",qwen25_15b_base
+far,distant,near,37,3041,28727,3143,"Complete the answer with one word only.
+In this game, far means near.
+Question: In this game, a synonym of far is
+Answer:",qwen25_15b_base
+small,tiny,big,0,2613,13673,2409,"<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Complete the answer with one word only.
+In this game, small means big.
+Question: In this game, a synonym of small is
+Answer:<|im_end|>
+<|im_start|>assistant
+",qwen25_15b_instruct
+hot,warm,cold,2,4017,8205,9255,"<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Complete the answer with one word only.
+In this game, hot means cold.
+Question: In this game, a synonym of hot is
+Answer:<|im_end|>
+<|im_start|>assistant
+",qwen25_15b_instruct
+cold,chilly,hot,3,9255,80875,4017,"<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Complete the answer with one word only.
+In this game, cold means hot.
+Question: In this game, a synonym of cold is
+Answer:<|im_end|>
+<|im_start|>assistant
+",qwen25_15b_instruct
+sad,unhappy,happy,5,12421,42151,6247,"<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Complete the answer with one word only.
+In this game, sad means happy.
+Question: In this game, a synonym of sad is
+Answer:<|im_end|>
+<|im_start|>assistant
+",qwen25_15b_instruct
+dark,dim,bright,9,6319,5103,9906,"<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Complete the answer with one word only.
+In this game, dark means bright.
+Question: In this game, a synonym of dark is
+Answer:<|im_end|>
+<|im_start|>assistant
+",qwen25_15b_instruct
+weak,frail,strong,13,7469,90123,3746,"<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Complete the answer with one word only.
+In this game, weak means strong.
+Question: In this game, a synonym of weak is
+Answer:<|im_end|>
+<|im_start|>assistant
+",qwen25_15b_instruct
+old,aged,new,14,2310,19749,501,"<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Complete the answer with one word only.
+In this game, old means new.
+Question: In this game, a synonym of old is
+Answer:<|im_end|>
+<|im_start|>assistant
+",qwen25_15b_instruct
+new,fresh,old,15,501,7722,2310,"<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Complete the answer with one word only.
+In this game, new means old.
+Question: In this game, a synonym of new is
+Answer:<|im_end|>
+<|im_start|>assistant
+",qwen25_15b_instruct
+dirty,filthy,clean,17,18595,77342,4240,"<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Complete the answer with one word only.
+In this game, dirty means clean.
+Question: In this game, a synonym of dirty is
+Answer:<|im_end|>
+<|im_start|>assistant
+",qwen25_15b_instruct
+poor,needy,rich,19,7852,82463,9080,"<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Complete the answer with one word only.
+In this game, poor means rich.
+Question: In this game, a synonym of poor is
+Answer:<|im_end|>
+<|im_start|>assistant
+",qwen25_15b_instruct
+dangerous,risky,safe,21,11406,40173,6092,"<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Complete the answer with one word only.
+In this game, dangerous means safe.
+Question: In this game, a synonym of dangerous is
+Answer:<|im_end|>
+<|im_start|>assistant
+",qwen25_15b_instruct
+loud,noisy,quiet,24,17361,49280,11340,"<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Complete the answer with one word only.
+In this game, loud means quiet.
+Question: In this game, a synonym of loud is
+Answer:<|im_end|>
+<|im_start|>assistant
+",qwen25_15b_instruct
+quiet,silent,loud,25,11340,21059,17361,"<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Complete the answer with one word only.
+In this game, quiet means loud.
+Question: In this game, a synonym of quiet is
+Answer:<|im_end|>
+<|im_start|>assistant
+",qwen25_15b_instruct
+clear,plain,confusing,26,2797,14396,30615,"<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Complete the answer with one word only.
+In this game, clear means confusing.
+Question: In this game, a synonym of clear is
+Answer:<|im_end|>
+<|im_start|>assistant
+",qwen25_15b_instruct
+confusing,unclear,clear,27,30615,24416,2797,"<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Complete the answer with one word only.
+In this game, confusing means clear.
+Question: In this game, a synonym of confusing is
+Answer:<|im_end|>
+<|im_start|>assistant
+",qwen25_15b_instruct
+empty,vacant,full,28,4287,48691,2480,"<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Complete the answer with one word only.
+In this game, empty means full.
+Question: In this game, a synonym of empty is
+Answer:<|im_end|>
+<|im_start|>assistant
+",qwen25_15b_instruct
+full,complete,empty,29,2480,4583,4287,"<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Complete the answer with one word only.
+In this game, full means empty.
+Question: In this game, a synonym of full is
+Answer:<|im_end|>
+<|im_start|>assistant
+",qwen25_15b_instruct
+shallow,superficial,deep,35,25600,58815,5538,"<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Complete the answer with one word only.
+In this game, shallow means deep.
+Question: In this game, a synonym of shallow is
+Answer:<|im_end|>
+<|im_start|>assistant
+",qwen25_15b_instruct
+far,distant,near,37,3041,28727,3143,"<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Complete the answer with one word only.
+In this game, far means near.
+Question: In this game, a synonym of far is
+Answer:<|im_end|>
+<|im_start|>assistant
+",qwen25_15b_instruct
+young,youthful,old,38,3908,64555,2310,"<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Complete the answer with one word only.
+In this game, young means old.
+Question: In this game, a synonym of young is
+Answer:<|im_end|>
+<|im_start|>assistant
+",qwen25_15b_instruct
+open,unlocked,closed,42,1787,35618,7877,"<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Complete the answer with one word only.
+In this game, open means closed.
+Question: In this game, a synonym of open is
+Answer:<|im_end|>
+<|im_start|>assistant
+",qwen25_15b_instruct
+closed,shut,open,43,7877,9311,1787,"<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Complete the answer with one word only.
+In this game, closed means open.
+Question: In this game, a synonym of closed is
+Answer:<|im_end|>
+<|im_start|>assistant
+",qwen25_15b_instruct
+cruel,mean,kind,45,27030,3076,3093,"<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Complete the answer with one word only.
+In this game, cruel means kind.
+Question: In this game, a synonym of cruel is
+Answer:<|im_end|>
+<|im_start|>assistant
+",qwen25_15b_instruct
+calm,peaceful,anxious,47,19300,25650,37000,"<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Complete the answer with one word only.
+In this game, calm means anxious.
+Question: In this game, a synonym of calm is
+Answer:<|im_end|>
+<|im_start|>assistant
+",qwen25_15b_instruct
+honest,truthful,dishonest,49,10745,89867,58916,"<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Complete the answer with one word only.
+In this game, honest means dishonest.
+Question: In this game, a synonym of honest is
+Answer:<|im_end|>
+<|im_start|>assistant
+",qwen25_15b_instruct
+lazy,idle,active,50,15678,27647,4541,"<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Complete the answer with one word only.
+In this game, lazy means active.
+Question: In this game, a synonym of lazy is
+Answer:<|im_end|>
+<|im_start|>assistant
+",qwen25_15b_instruct
+active,busy,lazy,51,4541,13028,15678,"<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Complete the answer with one word only.
+In this game, active means lazy.
+Question: In this game, a synonym of active is
+Answer:<|im_end|>
+<|im_start|>assistant
+",qwen25_15b_instruct
+complex,complicated,simple,52,6351,16965,4285,"<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Complete the answer with one word only.
+In this game, complex means simple.
+Question: In this game, a synonym of complex is
+Answer:<|im_end|>
+<|im_start|>assistant
+",qwen25_15b_instruct
+false,fake,true,55,895,12418,830,"<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Complete the answer with one word only.
+In this game, false means true.
+Question: In this game, a synonym of false is
+Answer:<|im_end|>
+<|im_start|>assistant
+",qwen25_15b_instruct
+thick,dense,thin,56,12045,27950,15430,"<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Complete the answer with one word only.
+In this game, thick means thin.
+Question: In this game, a synonym of thick is
+Answer:<|im_end|>
+<|im_start|>assistant
+",qwen25_15b_instruct
+bad,poor,good,63,3873,7852,1661,"<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Complete the answer with one word only.
+In this game, bad means good.
+Question: In this game, a synonym of bad is
+Answer:<|im_end|>
+<|im_start|>assistant
+",qwen25_15b_instruct
+wrong,incorrect,right,64,4969,15114,1290,"<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Complete the answer with one word only.
+In this game, wrong means right.
+Question: In this game, a synonym of wrong is
+Answer:<|im_end|>
+<|im_start|>assistant
+",qwen25_15b_instruct
+small,tiny,big,0,2301,16791,2824,"Complete the answer with one word only.
+In this game, small means big.
+Question: In this game, a synonym of small is
+Answer:",gemma2_2b_base
+large,big,small,1,2910,2824,2301,"Complete the answer with one word only.
+In this game, large means small.
+Question: In this game, a synonym of large is
+Answer:",gemma2_2b_base
+hot,warm,cold,2,5342,8056,7033,"Complete the answer with one word only.
+In this game, hot means cold.
+Question: In this game, a synonym of hot is
+Answer:",gemma2_2b_base
+cold,chilly,hot,3,7033,103313,5342,"Complete the answer with one word only.
+In this game, cold means hot.
+Question: In this game, a synonym of cold is
+Answer:",gemma2_2b_base
+happy,glad,sad,4,4915,11599,9270,"Complete the answer with one word only.
+In this game, happy means sad.
+Question: In this game, a synonym of happy is
+Answer:",gemma2_2b_base
+sad,unhappy,happy,5,9270,42056,4915,"Complete the answer with one word only.
+In this game, sad means happy.
+Question: In this game, a synonym of sad is
+Answer:",gemma2_2b_base
+fast,quick,slow,6,4847,4320,6080,"Complete the answer with one word only.
+In this game, fast means slow.
+Question: In this game, a synonym of fast is
+Answer:",gemma2_2b_base
+slow,sluggish,fast,7,6080,109379,4847,"Complete the answer with one word only.
+In this game, slow means fast.
+Question: In this game, a synonym of slow is
+Answer:",gemma2_2b_base
+dark,dim,bright,9,4868,7675,8660,"Complete the answer with one word only.
+In this game, dark means bright.
+Question: In this game, a synonym of dark is
+Answer:",gemma2_2b_base
+hard,tough,soft,10,2811,13923,4072,"Complete the answer with one word only.
+In this game, hard means soft.
+Question: In this game, a synonym of hard is
+Answer:",gemma2_2b_base
+soft,gentle,hard,11,4072,12446,2811,"Complete the answer with one word only.
+In this game, soft means hard.
+Question: In this game, a synonym of soft is
+Answer:",gemma2_2b_base
+strong,powerful,weak,12,3779,10276,8742,"Complete the answer with one word only.
+In this game, strong means weak.
+Question: In this game, a synonym of strong is
+Answer:",gemma2_2b_base
+weak,frail,strong,13,8742,103093,3779,"Complete the answer with one word only.
+In this game, weak means strong.
+Question: In this game, a synonym of weak is
+Answer:",gemma2_2b_base
+old,aged,new,14,2187,18901,888,"Complete the answer with one word only.
+In this game, old means new.
+Question: In this game, a synonym of old is
+Answer:",gemma2_2b_base
+new,fresh,old,15,888,6422,2187,"Complete the answer with one word only.
+In this game, new means old.
+Question: In this game, a synonym of new is
+Answer:",gemma2_2b_base
+dirty,filthy,clean,17,23048,95647,3903,"Complete the answer with one word only.
+In this game, dirty means clean.
+Question: In this game, a synonym of dirty is
+Answer:",gemma2_2b_base
+rich,wealthy,poor,18,7277,42153,6528,"Complete the answer with one word only.
+In this game, rich means poor.
+Question: In this game, a synonym of rich is
+Answer:",gemma2_2b_base
+poor,needy,rich,19,6528,89913,7277,"Complete the answer with one word only.
+In this game, poor means rich.
+Question: In this game, a synonym of poor is
+Answer:",gemma2_2b_base
+safe,secure,dangerous,20,5985,10548,13541,"Complete the answer with one word only.
+In this game, safe means dangerous.
+Question: In this game, a synonym of safe is
+Answer:",gemma2_2b_base
+dangerous,risky,safe,21,13541,60952,5985,"Complete the answer with one word only.
+In this game, dangerous means safe.
+Question: In this game, a synonym of dangerous is
+Answer:",gemma2_2b_base
+easy,simple,hard,22,3980,3890,2811,"Complete the answer with one word only.
+In this game, easy means hard.
+Question: In this game, a synonym of easy is
+Answer:",gemma2_2b_base
+difficult,hard,easy,23,5988,2811,3980,"Complete the answer with one word only.
+In this game, difficult means easy.
+Question: In this game, a synonym of difficult is
+Answer:",gemma2_2b_base
+loud,noisy,quiet,24,16129,52806,11067,"Complete the answer with one word only.
+In this game, loud means quiet.
+Question: In this game, a synonym of loud is
+Answer:",gemma2_2b_base
+quiet,silent,loud,25,11067,19887,16129,"Complete the answer with one word only.
+In this game, quiet means loud.
+Question: In this game, a synonym of quiet is
+Answer:",gemma2_2b_base
+clear,plain,confusing,26,3110,7528,39809,"Complete the answer with one word only.
+In this game, clear means confusing.
+Question: In this game, a synonym of clear is
+Answer:",gemma2_2b_base
+confusing,unclear,clear,27,39809,40846,3110,"Complete the answer with one word only.
+In this game, confusing means clear.
+Question: In this game, a synonym of confusing is
+Answer:",gemma2_2b_base
+empty,vacant,full,28,8144,52435,2247,"Complete the answer with one word only.
+In this game, empty means full.
+Question: In this game, a synonym of empty is
+Answer:",gemma2_2b_base
+heavy,weighty,light,30,8090,180367,2611,"Complete the answer with one word only.
+In this game, heavy means light.
+Question: In this game, a synonym of heavy is
+Answer:",gemma2_2b_base
+light,bright,dark,31,2611,8660,4868,"Complete the answer with one word only.
+In this game, light means dark.
+Question: In this game, a synonym of light is
+Answer:",gemma2_2b_base
+narrow,thin,wide,32,13004,11342,5396,"Complete the answer with one word only.
+In this game, narrow means wide.
+Question: In this game, a synonym of narrow is
+Answer:",gemma2_2b_base
+wide,broad,narrow,33,5396,7209,13004,"Complete the answer with one word only.
+In this game, wide means narrow.
+Question: In this game, a synonym of wide is
+Answer:",gemma2_2b_base
+deep,profound,shallow,34,5271,30371,27468,"Complete the answer with one word only.
+In this game, deep means shallow.
+Question: In this game, a synonym of deep is
+Answer:",gemma2_2b_base
+small,tiny,big,0,2301,16791,2824,"<bos><start_of_turn>user
+Complete the answer with one word only.
+In this game, small means big.
+Question: In this game, a synonym of small is
+Answer:<end_of_turn>
+<start_of_turn>model
+",gemma2_2b_instruct
+dark,dim,bright,9,4868,7675,8660,"<bos><start_of_turn>user
+Complete the answer with one word only.
+In this game, dark means bright.
+Question: In this game, a synonym of dark is
+Answer:<end_of_turn>
+<start_of_turn>model
+",gemma2_2b_instruct
+old,aged,new,14,2187,18901,888,"<bos><start_of_turn>user
+Complete the answer with one word only.
+In this game, old means new.
+Question: In this game, a synonym of old is
+Answer:<end_of_turn>
+<start_of_turn>model
+",gemma2_2b_instruct
+dangerous,risky,safe,21,13541,60952,5985,"<bos><start_of_turn>user
+Complete the answer with one word only.
+In this game, dangerous means safe.
+Question: In this game, a synonym of dangerous is
+Answer:<end_of_turn>
+<start_of_turn>model
+",gemma2_2b_instruct
+clear,plain,confusing,26,3110,7528,39809,"<bos><start_of_turn>user
+Complete the answer with one word only.
+In this game, clear means confusing.
+Question: In this game, a synonym of clear is
+Answer:<end_of_turn>
+<start_of_turn>model
+",gemma2_2b_instruct
+empty,vacant,full,28,8144,52435,2247,"<bos><start_of_turn>user
+Complete the answer with one word only.
+In this game, empty means full.
+Question: In this game, a synonym of empty is
+Answer:<end_of_turn>
+<start_of_turn>model
+",gemma2_2b_instruct
+heavy,weighty,light,30,8090,180367,2611,"<bos><start_of_turn>user
+Complete the answer with one word only.
+In this game, heavy means light.
+Question: In this game, a synonym of heavy is
+Answer:<end_of_turn>
+<start_of_turn>model
+",gemma2_2b_instruct
+shallow,superficial,deep,35,27468,50168,5271,"<bos><start_of_turn>user
+Complete the answer with one word only.
+In this game, shallow means deep.
+Question: In this game, a synonym of shallow is
+Answer:<end_of_turn>
+<start_of_turn>model
+",gemma2_2b_instruct
+near,close,far,36,3018,3387,2166,"<bos><start_of_turn>user
+Complete the answer with one word only.
+In this game, near means far.
+Question: In this game, a synonym of near is
+Answer:<end_of_turn>
+<start_of_turn>model
+",gemma2_2b_instruct
+young,youthful,old,38,3486,65741,2187,"<bos><start_of_turn>user
+Complete the answer with one word only.
+In this game, young means old.
+Question: In this game, a synonym of young is
+Answer:<end_of_turn>
+<start_of_turn>model
+",gemma2_2b_instruct
+open,unlocked,closed,42,2174,60195,7337,"<bos><start_of_turn>user
+Complete the answer with one word only.
+In this game, open means closed.
+Question: In this game, a synonym of open is
+Answer:<end_of_turn>
+<start_of_turn>model
+",gemma2_2b_instruct
+closed,shut,open,43,7337,11620,2174,"<bos><start_of_turn>user
+Complete the answer with one word only.
+In this game, closed means open.
+Question: In this game, a synonym of closed is
+Answer:<end_of_turn>
+<start_of_turn>model
+",gemma2_2b_instruct
+complex,complicated,simple,52,5766,20433,3890,"<bos><start_of_turn>user
+Complete the answer with one word only.
+In this game, complex means simple.
+Question: In this game, a synonym of complex is
+Answer:<end_of_turn>
+<start_of_turn>model
+",gemma2_2b_instruct
+sharp,pointed,dull,58,15280,14900,33191,"<bos><start_of_turn>user
+Complete the answer with one word only.
+In this game, sharp means dull.
+Question: In this game, a synonym of sharp is
+Answer:<end_of_turn>
+<start_of_turn>model
+",gemma2_2b_instruct
+small,tiny,big,0,1355,10058,1943,"Complete the answer with one word only.
+In this game, small means big.
+Question: In this game, a synonym of small is
+Answer:",olmo_1b_base
+large,big,small,1,1781,1943,1355,"Complete the answer with one word only.
+In this game, large means small.
+Question: In this game, a synonym of large is
+Answer:",olmo_1b_base
+hot,warm,cold,2,3511,5890,5412,"Complete the answer with one word only.
+In this game, hot means cold.
+Question: In this game, a synonym of hot is
+Answer:",olmo_1b_base
+sad,unhappy,happy,5,8872,26442,5211,"Complete the answer with one word only.
+In this game, sad means happy.
+Question: In this game, a synonym of sad is
+Answer:",olmo_1b_base
+bright,shiny,dark,8,6627,30006,3644,"Complete the answer with one word only.
+In this game, bright means dark.
+Question: In this game, a synonym of bright is
+Answer:",olmo_1b_base
+dark,dim,bright,9,3644,3317,6627,"Complete the answer with one word only.
+In this game, dark means bright.
+Question: In this game, a synonym of dark is
+Answer:",olmo_1b_base
+hard,tough,soft,10,1892,10458,2602,"Complete the answer with one word only.
+In this game, hard means soft.
+Question: In this game, a synonym of hard is
+Answer:",olmo_1b_base
+soft,gentle,hard,11,2602,9950,1892,"Complete the answer with one word only.
+In this game, soft means hard.
+Question: In this game, a synonym of soft is
+Answer:",olmo_1b_base
+strong,powerful,weak,12,2266,6422,5075,"Complete the answer with one word only.
+In this game, strong means weak.
+Question: In this game, a synonym of strong is
+Answer:",olmo_1b_base
+old,aged,new,14,1711,10652,747,"Complete the answer with one word only.
+In this game, old means new.
+Question: In this game, a synonym of old is
+Answer:",olmo_1b_base
+new,fresh,old,15,747,5352,1711,"Complete the answer with one word only.
+In this game, new means old.
+Question: In this game, a synonym of new is
+Answer:",olmo_1b_base
+clean,neat,dirty,16,4076,18176,16076,"Complete the answer with one word only.
+In this game, clean means dirty.
+Question: In this game, a synonym of clean is
+Answer:",olmo_1b_base
+dirty,filthy,clean,17,16076,46280,4076,"Complete the answer with one word only.
+In this game, dirty means clean.
+Question: In this game, a synonym of dirty is
+Answer:",olmo_1b_base
+rich,wealthy,poor,18,6793,20193,4105,"Complete the answer with one word only.
+In this game, rich means poor.
+Question: In this game, a synonym of rich is
+Answer:",olmo_1b_base
+safe,secure,dangerous,20,4999,7895,8312,"Complete the answer with one word only.
+In this game, safe means dangerous.
+Question: In this game, a synonym of safe is
+Answer:",olmo_1b_base
+dangerous,risky,safe,21,8312,29198,4999,"Complete the answer with one word only.
+In this game, dangerous means safe.
+Question: In this game, a synonym of dangerous is
+Answer:",olmo_1b_base
+easy,simple,hard,22,3477,2969,1892,"Complete the answer with one word only.
+In this game, easy means hard.
+Question: In this game, a synonym of easy is
+Answer:",olmo_1b_base
+difficult,hard,easy,23,2834,1892,3477,"Complete the answer with one word only.
+In this game, difficult means easy.
+Question: In this game, a synonym of difficult is
+Answer:",olmo_1b_base
+loud,noisy,quiet,24,11216,27620,7107,"Complete the answer with one word only.
+In this game, loud means quiet.
+Question: In this game, a synonym of loud is
+Answer:",olmo_1b_base
+quiet,silent,loud,25,7107,11561,11216,"Complete the answer with one word only.
+In this game, quiet means loud.
+Question: In this game, a synonym of quiet is
+Answer:",olmo_1b_base
+clear,plain,confusing,26,2590,8342,21643,"Complete the answer with one word only.
+In this game, clear means confusing.
+Question: In this game, a synonym of clear is
+Answer:",olmo_1b_base
+confusing,unclear,clear,27,21643,12744,2590,"Complete the answer with one word only.
+In this game, confusing means clear.
+Question: In this game, a synonym of confusing is
+Answer:",olmo_1b_base
+empty,vacant,full,28,6325,33997,2120,"Complete the answer with one word only.
+In this game, empty means full.
+Question: In this game, a synonym of empty is
+Answer:",olmo_1b_base
+full,complete,empty,29,2120,3426,6325,"Complete the answer with one word only.
+In this game, full means empty.
+Question: In this game, a synonym of full is
+Answer:",olmo_1b_base
+narrow,thin,wide,32,6891,6906,4618,"Complete the answer with one word only.
+In this game, narrow means wide.
+Question: In this game, a synonym of narrow is
+Answer:",olmo_1b_base
+wide,broad,narrow,33,4618,3862,6891,"Complete the answer with one word only.
+In this game, wide means narrow.
+Question: In this game, a synonym of wide is
+Answer:",olmo_1b_base
+deep,profound,shallow,34,3676,15585,20126,"Complete the answer with one word only.
+In this game, deep means shallow.
+Question: In this game, a synonym of deep is
+Answer:",olmo_1b_base
+shallow,superficial,deep,35,20126,28019,3676,"Complete the answer with one word only.
+In this game, shallow means deep.
+Question: In this game, a synonym of shallow is
+Answer:",olmo_1b_base
+near,close,far,36,2822,2810,2080,"Complete the answer with one word only.
+In this game, near means far.
+Question: In this game, a synonym of near is
+Answer:",olmo_1b_base
+far,distant,near,37,2080,13392,2822,"Complete the answer with one word only.
+In this game, far means near.
+Question: In this game, a synonym of far is
+Answer:",olmo_1b_base
+young,youthful,old,38,2872,44098,1711,"Complete the answer with one word only.
+In this game, young means old.
+Question: In this game, a synonym of young is
+Answer:",olmo_1b_base
+rough,coarse,smooth,39,7227,25319,6032,"Complete the answer with one word only.
+In this game, rough means smooth.
+Question: In this game, a synonym of rough is
+Answer:",olmo_1b_base

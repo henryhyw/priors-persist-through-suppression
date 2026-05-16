@@ -1,0 +1,6 @@
+model_key,hf_id,tl_name,family,params_b,tuning,enabled,status,error
+qwen25_15b_base,Qwen/Qwen2.5-1.5B,Qwen/Qwen2.5-1.5B,Qwen,1.5,base,True,success,
+qwen25_15b_instruct,Qwen/Qwen2.5-1.5B-Instruct,Qwen/Qwen2.5-1.5B-Instruct,Qwen,1.5,instruct,True,success,
+gemma2_2b_base,google/gemma-2-2b,google/gemma-2-2b,Gemma,2.0,base,True,success,
+gemma2_2b_instruct,google/gemma-2-2b-it,google/gemma-2-2b-it,Gemma,2.0,instruct,True,success,
+olmo_1b_base,allenai/OLMo-1B-hf,allenai/OLMo-1B-hf,OLMo,1.0,base,True,success,
