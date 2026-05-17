@@ -2,9 +2,9 @@
 
 A Stroop Paradigm for Lexical Override.
 
-This repository contains the manuscript, code, and reproduction data package for the paper.
+This repository contains the code and reproduction data package for the paper.
 
-> **Status: anonymous review in progress.** This repository is shared via an anonymization service for ARR / EMNLP review. Author identity is suppressed; the corresponding non-anonymous repository will be linked after acceptance.
+> **Status: anonymous review in progress.** This repository is shared via an anonymization service for ARR / EMNLP review. The manuscript and LaTeX source are not included here.
 
 ---
 
@@ -14,19 +14,12 @@ This repository contains the manuscript, code, and reproduction data package for
 .
 ├── README.md                  (this file)
 ├── LICENSE                    (MIT)
-├── manuscript.pdf             (the paper)
 ├── code/
 │   ├── semantic_stroop_final_end_to_end_reproduction.ipynb
 │   │       — main reproduction notebook (behavior + mechanism)
-│   ├── mechanism_random_controls_logit_decomp.ipynb
-│   │       — supplementary notebook for the item-mismatched control
-│   │         with per-perturbation logit decomposition
-│   └── emnlp_submission/
-│       ├── main.tex, main.pdf, main.bbl, custom.bib
-│       ├── acl.sty, acl_natbib.bst   (ACL Rolling Review template)
-│       ├── figures/                  (PDFs used by the paper)
-│       ├── make_figures.py           (regenerates paper PDFs from CSVs)
-│       └── README.md                 (build instructions)
+│   └── mechanism_random_controls_logit_decomp.ipynb
+│           — supplementary notebook for the item-mismatched control
+│             with per-perturbation logit decomposition
 └── data/
     ├── README.txt                    (package contents + CSV ↔ paper mapping)
     ├── csv/                          (65 CSV outputs)
@@ -73,25 +66,6 @@ Open `code/semantic_stroop_final_end_to_end_reproduction.ipynb` in Jupyter or Co
 - A final zip archive that mirrors `data/`
 
 If you only need to regenerate the random-source control's per-item logit decomposition, run `code/mechanism_random_controls_logit_decomp.ipynb` separately — it is self-contained and reuses the same item-level seeds.
-
-### Compiling the paper
-
-```bash
-cd code/emnlp_submission/
-pdflatex main
-bibtex   main
-pdflatex main
-pdflatex main
-```
-
-### Regenerating the paper's figures from the CSVs
-
-```bash
-cd code/emnlp_submission/
-python make_figures.py
-```
-
-Reads from `../../data/csv/` and writes vector PDFs into `figures/`.
 
 ---
 
