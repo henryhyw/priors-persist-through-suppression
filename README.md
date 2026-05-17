@@ -127,12 +127,11 @@ The opening paragraph of the appendix maps CSV column names (`source_all`, `def_
 ## Citation
 
 ```bibtex
-@inproceedings{anon2026priors,
-  title     = {Priors Persist Through Suppression: A Stroop Paradigm for Lexical Override},
-  author    = {Anonymous},
-  booktitle = {Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing},
-  year      = {2026},
-  note      = {Under review},
+@misc{anon2026priors,
+  title  = {Priors Persist Through Suppression: A Stroop Paradigm for Lexical Override},
+  author = {Anonymous},
+  year   = {2026},
+  note   = {Under review at EMNLP 2026},
 }
 ```
 
