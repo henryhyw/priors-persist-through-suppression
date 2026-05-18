@@ -4,7 +4,7 @@ A Stroop Paradigm for Lexical Override.
 
 This repository contains the code and reproduction data package for the paper.
 
-> **Status: anonymous review in progress.** This repository is shared via an anonymization service for ARR / EMNLP review. The manuscript and LaTeX source are not included here.
+> Preprint accompanying the code+data release. The manuscript and LaTeX source are not included here.
 
 ---
 
@@ -101,15 +101,17 @@ The opening paragraph of the appendix maps CSV column names (`source_all`, `def_
 ## Citation
 
 ```bibtex
-@misc{anon2026priors,
-  title  = {Priors Persist Through Suppression: A Stroop Paradigm for Lexical Override},
-  author = {Anonymous},
-  year   = {2026},
-  note   = {Under review at EMNLP 2026},
+@article{wang2026priors,
+  title         = {Priors Persist Through Suppression: A Stroop Paradigm for Lexical Override},
+  author        = {Wang, Han-yu},
+  year          = {2026},
+  eprint        = {XXXX.XXXXX},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
 }
 ```
 
-This entry will be updated once the paper is accepted.
+`eprint` will be filled in once the arXiv preprint is live.
 
 ---
 
