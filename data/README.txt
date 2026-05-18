@@ -4,14 +4,14 @@ Semantic Stroop — Reproduction Data Package
 Companion artifact for:
 
   Priors Persist Through Suppression: A Stroop Paradigm for Lexical Override
-  (EMNLP 2026 submission)
+  Han-yu Wang, 2026
 
 This package contains the CSV outputs, figures, and summary that reproduce
 every numerical result in the manuscript. The notebook that generates
 these outputs end-to-end is
-semantic_stroop_final_end_to_end_reproduction.ipynb (in the project root),
-together with the supplementary control notebook
-mechanism_random_controls_logit_decomp.ipynb.
+code/semantic_stroop_final_end_to_end_reproduction.ipynb, together with
+the supplementary control notebook
+code/mechanism_random_controls_logit_decomp.ipynb.
 
 Headline findings reproduced by this package
 --------------------------------------------
