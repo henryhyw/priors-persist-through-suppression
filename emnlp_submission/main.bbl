@@ -1,0 +1,237 @@
+\begin{thebibliography}{30}
+\providecommand{\natexlab}[1]{#1}
+
+\bibitem[{Ettinger(2020)}]{ettinger2020bert}
+Allyson Ettinger. 2020.
+\newblock \href {https://doi.org/10.1162/tacl_a_00298} {What {BERT} is not:
+  Lessons from a new suite of psycholinguistic diagnostics for language
+  models}.
+\newblock \emph{Transactions of the Association for Computational Linguistics},
+  8.
+
+\bibitem[{Feng and Steinhardt(2024)}]{feng2024binding}
+Jiahai Feng and Jacob Steinhardt. 2024.
+\newblock How do language models bind entities in context?
+\newblock In \emph{The Twelfth International Conference on Learning
+  Representations}.
+
+\bibitem[{Groeneveld et~al.(2024)Groeneveld, Beltagy, Walsh, Bhagia, Kinney,
+  Tafjord, Jha, Ivison, Magnusson, and Wang}]{groeneveld2024olmo}
+Dirk Groeneveld, Iz~Beltagy, Evan Walsh, Akshita Bhagia, Rodney Kinney, Oyvind
+  Tafjord, Ananya Jha, Hamish Ivison, Ian Magnusson, and Yizhong Wang. 2024.
+\newblock \href {https://doi.org/10.18653/v1/2024.acl-long.841} {{OLMo}:
+  Accelerating the science of language models}.
+\newblock In \emph{Proceedings of the 62nd Annual Meeting of the Association
+  for Computational Linguistics}.
+
+\bibitem[{Hernandez et~al.(2024)Hernandez, Li, and
+  Andreas}]{hernandez2024inspecting}
+Evan Hernandez, Belinda~Z. Li, and Jacob Andreas. 2024.
+\newblock Inspecting and editing knowledge representations in language models.
+\newblock In \emph{First Conference on Language Modeling ({COLM})}.
+
+\bibitem[{Jiang et~al.(2023)Jiang, Sablayrolles, Mensch, Bamford, Chaplot,
+  Casas, Bressand, Lengyel, Lample, and Saulnier}]{jiang2023mistral}
+Albert~Q. Jiang, Alexandre Sablayrolles, Arthur Mensch, Chris Bamford,
+  Devendra~Singh Chaplot, Diego de~las Casas, Florian Bressand, Gianna Lengyel,
+  Guillaume Lample, and Lucile Saulnier. 2023.
+\newblock Mistral 7{B}.
+\newblock \emph{arXiv preprint arXiv:2310.06825}.
+
+\bibitem[{Jin et~al.(2024)Jin, Cao, Yuan, Chen, Xu, Li, Jiang, Liu, and
+  Zhao}]{jin2024cutting}
+Zhuoran Jin, Pengfei Cao, Hongbang Yuan, Yubo Chen, Jiexin Xu, Huaijun Li,
+  Xiaojian Jiang, Kang Liu, and Jun Zhao. 2024.
+\newblock Cutting off the head ends the conflict: A mechanism for interpreting
+  and mitigating knowledge conflicts in language models.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  ACL 2024}.
+
+\bibitem[{Kassner and Sch{\"u}tze(2020)}]{kassner2020negated}
+Nora Kassner and Hinrich Sch{\"u}tze. 2020.
+\newblock \href {https://doi.org/10.18653/v1/2020.acl-main.698} {Negated and
+  misprimed probes for pretrained language models: Birds can talk, but cannot
+  fly}.
+\newblock In \emph{Proceedings of the 58th Annual Meeting of the Association
+  for Computational Linguistics}.
+
+\bibitem[{Kortukov et~al.(2024)Kortukov, Rubinstein, Nguyen, and
+  Oh}]{kortukov2024studying}
+Evgenii Kortukov, Alexander Rubinstein, Elisa Nguyen, and Seong~Joon Oh. 2024.
+\newblock Studying large language model behaviors under context-memory
+  conflicts with real documents.
+\newblock In \emph{First Conference on Language Modeling ({COLM})}.
+
+\bibitem[{Longpre et~al.(2021)Longpre, Perisetla, Chen, Ramesh, DuBois, and
+  Singh}]{longpre2021entity}
+Shayne Longpre, Kartik Perisetla, Anthony Chen, Nikhil Ramesh, Chris DuBois,
+  and Sameer Singh. 2021.
+\newblock \href {https://doi.org/10.18653/v1/2021.emnlp-main.565} {Entity-based
+  knowledge conflicts in question answering}.
+\newblock In \emph{Proceedings of the 2021 Conference on Empirical Methods in
+  Natural Language Processing}.
+
+\bibitem[{McDougall et~al.(2024)McDougall, Conmy, Rushing, McGrath, and
+  Nanda}]{mcdougall2024copy}
+Callum McDougall, Arthur Conmy, Cody Rushing, Thomas McGrath, and Neel Nanda.
+  2024.
+\newblock Copy suppression: Comprehensively understanding a motif in language
+  model attention heads.
+\newblock In \emph{Proceedings of the 7th BlackboxNLP Workshop: Analyzing and
+  Interpreting Neural Networks for NLP}.
+
+\bibitem[{Meng et~al.(2022)Meng, Bau, Andonian, and Belinkov}]{meng2022rome}
+Kevin Meng, David Bau, Alex Andonian, and Yonatan Belinkov. 2022.
+\newblock Locating and editing factual associations in {GPT}.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~35.
+
+\bibitem[{Misra et~al.(2020)Misra, Ettinger, and Rayz}]{misra2020priming}
+Kanishka Misra, Allyson Ettinger, and Julia~Taylor Rayz. 2020.
+\newblock \href {https://doi.org/10.18653/v1/2020.findings-emnlp.415}
+  {Exploring {BERT}'s sensitivity to lexical cues using tests from semantic
+  priming}.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  EMNLP 2020}.
+
+\bibitem[{Nanda and Bloom(2022)}]{nanda2022transformerlens}
+Neel Nanda and Joseph Bloom. 2022.
+\newblock {TransformerLens}: A library for mechanistic interpretability of
+  generative language models.
+\newblock \url{https://github.com/TransformerLensOrg/TransformerLens}.
+
+\bibitem[{Olsson et~al.(2022)Olsson, Elhage, Nanda, Joseph, DasSarma, Henighan,
+  Mann, Askell, Bai, and Chen}]{olsson2022induction}
+Catherine Olsson, Nelson Elhage, Neel Nanda, Nicholas Joseph, Nova DasSarma,
+  Tom Henighan, Ben Mann, Amanda Askell, Yuntao Bai, and Anna Chen. 2022.
+\newblock In-context learning and induction heads.
+\newblock \emph{Transformer Circuits Thread}.
+
+\bibitem[{Ortu et~al.(2024)Ortu, Jin, Doimo, Sachan, Cazzaniga, and
+  Sch{\"o}lkopf}]{ortu2024competition}
+Francesco Ortu, Zhijing Jin, Diego Doimo, Mrinmaya Sachan, Alberto Cazzaniga,
+  and Bernhard Sch{\"o}lkopf. 2024.
+\newblock Competition of mechanisms: Tracing how language models handle facts
+  and counterfactuals.
+\newblock In \emph{Proceedings of the 62nd Annual Meeting of the Association
+  for Computational Linguistics}.
+
+\bibitem[{Pan et~al.(2023)Pan, Gao, Chen, and Chen}]{pan2023incontext}
+Jane Pan, Tianyu Gao, Howard Chen, and Danqi Chen. 2023.
+\newblock \href {https://doi.org/10.18653/v1/2023.findings-acl.527} {What
+  in-context learning ``learns'' in-context: Disentangling task recognition and
+  task learning}.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  ACL 2023}.
+
+\bibitem[{Prakash et~al.(2024)Prakash, Shaham, Haklay, Belinkov, and
+  Bau}]{prakash2024finetuning}
+Nikhil Prakash, Tamar~Rott Shaham, Tal Haklay, Yonatan Belinkov, and David Bau.
+  2024.
+\newblock Fine-tuning enhances existing mechanisms: A case study on entity
+  tracking.
+\newblock In \emph{The Twelfth International Conference on Learning
+  Representations}.
+
+\bibitem[{Rivi{\`e}re et~al.(2024)Rivi{\`e}re, Pathak, Sessa, Hardin,
+  Bhupatiraju, Hussenot, Mesnard, Shahriari, Ram{\'e}, and
+  Ferret}]{riviere2024gemma2}
+Morgane Rivi{\`e}re, Shreya Pathak, Pier~Giuseppe Sessa, Cassidy Hardin, Surya
+  Bhupatiraju, L{\'e}onard Hussenot, Thomas Mesnard, Bobak Shahriari, Alexandre
+  Ram{\'e}, and Johan Ferret. 2024.
+\newblock Gemma 2: Improving open language models at a practical size.
+\newblock \emph{arXiv preprint arXiv:2408.00118}.
+
+\bibitem[{Shi et~al.(2023)Shi, Chen, Misra, Scales, Dohan, Chi, Sch{\"a}rli,
+  and Zhou}]{shi2023distracted}
+Freda Shi, Xinyun Chen, Kanishka Misra, Nathan Scales, David Dohan, Ed~H. Chi,
+  Nathanael Sch{\"a}rli, and Denny Zhou. 2023.
+\newblock Large language models can be easily distracted by irrelevant context.
+\newblock In \emph{Proceedings of the 40th International Conference on Machine
+  Learning}.
+
+\bibitem[{Stroop(1935)}]{stroop1935}
+J.~Ridley Stroop. 1935.
+\newblock \href {https://doi.org/10.1037/h0054651} {Studies of interference in
+  serial verbal reactions}.
+\newblock \emph{Journal of Experimental Psychology}, 18(6):643--662.
+
+\bibitem[{Turner et~al.(2023)Turner, Thiergart, Leech, Udell, Vazquez, Mini,
+  and MacDiarmid}]{turner2023activation}
+Alexander~Matt Turner, Lisa Thiergart, Gavin Leech, David Udell, Juan~J.
+  Vazquez, Ulisse Mini, and Monte MacDiarmid. 2023.
+\newblock Activation addition: Steering language models without optimization.
+\newblock \emph{arXiv preprint arXiv:2308.10248}.
+
+\bibitem[{Vig et~al.(2020)Vig, Gehrmann, Belinkov, Qian, Nevo, Singer, and
+  Shieber}]{vig2020causal}
+Jesse Vig, Sebastian Gehrmann, Yonatan Belinkov, Sharon Qian, Daniel Nevo,
+  Yaron Singer, and Stuart Shieber. 2020.
+\newblock Investigating gender bias in language models using causal mediation
+  analysis.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~33.
+
+\bibitem[{Wang et~al.(2023)Wang, Variengien, Conmy, Shlegeris, and
+  Steinhardt}]{wang2023ioi}
+Kevin Wang, Alexandre Variengien, Arthur Conmy, Buck Shlegeris, and Jacob
+  Steinhardt. 2023.
+\newblock Interpretability in the wild: A circuit for indirect object
+  identification in {GPT}-2 small.
+\newblock In \emph{The Eleventh International Conference on Learning
+  Representations}.
+
+\bibitem[{Wei et~al.(2023)Wei, Wei, Tay, Tran, Webson, Lu, Chen, Liu, Huang,
+  Zhou, and Ma}]{wei2023larger}
+Jerry Wei, Jason Wei, Yi~Tay, Dustin Tran, Albert Webson, Yifeng Lu, Xinyun
+  Chen, Hanxiao Liu, Da~Huang, Denny Zhou, and Tengyu Ma. 2023.
+\newblock Larger language models do in-context learning differently.
+\newblock \emph{arXiv preprint arXiv:2303.03846}.
+
+\bibitem[{Xie et~al.(2024)Xie, Zhang, Chen, Lou, and Su}]{xie2024knowledge}
+Jian Xie, Kai Zhang, Jiangjie Chen, Renze Lou, and Yu~Su. 2024.
+\newblock Adaptive chameleon or stubborn sloth: Revealing the behavior of large
+  language models in knowledge conflicts.
+\newblock In \emph{The Twelfth International Conference on Learning
+  Representations}.
+
+\bibitem[{Xu et~al.(2024)Xu, Qi, Guo, Wang, Wang, Zhang, and
+  Xu}]{xu2024knowledge}
+Rongwu Xu, Zehan Qi, Zhijiang Guo, Cunxiang Wang, Hongru Wang, Yue Zhang, and
+  Wei Xu. 2024.
+\newblock Knowledge conflicts for {LLMs}: A survey.
+\newblock In \emph{Proceedings of the 2024 Conference on Empirical Methods in
+  Natural Language Processing}.
+
+\bibitem[{Yang et~al.(2024)Yang, Yang, Zhang, Hui, Zheng, Yu, Li, Liu, Huang,
+  and Wei}]{yang2024qwen25}
+An~Yang, Baosong Yang, Beichen Zhang, Binyuan Hui, Bo~Zheng, Bowen Yu,
+  Chengyuan Li, Dayiheng Liu, Fei Huang, and Haoran Wei. 2024.
+\newblock Qwen2.5 technical report.
+\newblock \emph{arXiv preprint arXiv:2412.15115}.
+
+\bibitem[{Yu et~al.(2023)Yu, Merullo, and Pavlick}]{yu2023characterizing}
+Qinan Yu, Jack Merullo, and Ellie Pavlick. 2023.
+\newblock \href {https://doi.org/10.18653/v1/2023.emnlp-main.615}
+  {Characterizing mechanisms for factual recall in language models}.
+\newblock In \emph{Proceedings of the 2023 Conference on Empirical Methods in
+  Natural Language Processing}.
+
+\bibitem[{Zhang and Nanda(2024)}]{zhang2024towards}
+Fred Zhang and Neel Nanda. 2024.
+\newblock Towards best practices of activation patching in language models:
+  Metrics and methods.
+\newblock In \emph{The Twelfth International Conference on Learning
+  Representations}.
+
+\bibitem[{Zou et~al.(2023)Zou, Phan, Chen, Campbell, Guo, Ren, Pan, Yin,
+  Mazeika, Dombrowski, Goel, Li, Byun, Wang, Mallen, Basart, Koyejo, Song,
+  Fredrikson, Kolter, and Hendrycks}]{zou2023representation}
+Andy Zou, Long Phan, Sarah Chen, James Campbell, Phillip Guo, Richard Ren,
+  Alexander Pan, Xuwang Yin, Mantas Mazeika, Ann-Kathrin Dombrowski, Shashwat
+  Goel, Nathaniel Li, Michael~J. Byun, Zifan Wang, Alex Mallen, Steven Basart,
+  Sanmi Koyejo, Dawn Song, Matt Fredrikson, and 2 others. 2023.
+\newblock Representation engineering: A top-down approach to {AI} transparency.
+\newblock \emph{arXiv preprint arXiv:2310.01405}.
+
+\end{thebibliography}

@@ -2,7 +2,7 @@
 
 A Stroop Paradigm for Lexical Override.
 
-This repository contains the code and reproduction data package for the paper.
+This repository contains the manuscript source, code, and reproduction data package for the paper.
 
 ---
 
@@ -18,6 +18,14 @@ This repository contains the code and reproduction data package for the paper.
 │   └── mechanism_random_controls_logit_decomp.ipynb
 │           — supplementary notebook for the item-mismatched control
 │             with per-perturbation logit decomposition
+├── emnlp_submission/                 (anonymous EMNLP review package)
+│   ├── main.tex, main.pdf, main.bbl, custom.bib
+│   ├── figures/                      (vector PDFs used by the paper)
+│   └── make_figures.py               (regenerates paper PDFs from CSVs)
+├── arxiv_submission/                 (de-anonymized arXiv preprint package)
+│   ├── main.tex, main.pdf, main.bbl, custom.bib
+│   ├── figures/                      (vector PDFs used by the preprint)
+│   └── make_figures.py               (same CSV-backed figure pipeline)
 └── data/
     ├── README.txt                    (package contents + CSV ↔ paper mapping)
     ├── csv/                          (65 CSV outputs)
@@ -64,6 +72,15 @@ Open `code/semantic_stroop_final_end_to_end_reproduction.ipynb` in Jupyter or Co
 - A final zip archive that mirrors `data/`
 
 If you only need to regenerate the random-source control's per-item logit decomposition, run `code/mechanism_random_controls_logit_decomp.ipynb` separately — it is self-contained and reuses the same item-level seeds.
+
+### Regenerating the paper figures
+
+```bash
+cd emnlp_submission/
+python make_figures.py
+```
+
+By default, `make_figures.py` reads from `../data/csv/` in this repository and writes vector PDFs into the submission folder's `figures/` directory. The same command works from `arxiv_submission/`. If your CSVs live somewhere else, set `SEMANTIC_STROOP_CSV_DIR` to that `csv/` directory before running the script.
 
 ---
 
