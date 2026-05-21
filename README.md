@@ -18,18 +18,9 @@ This repository contains the manuscript source, code, and reproduction data pack
 │   └── mechanism_random_controls_logit_decomp.ipynb
 │           — supplementary notebook for the item-mismatched control
 │             with per-perturbation logit decomposition
-├── emnlp_submission/                 (anonymous EMNLP review package)
-│   ├── main.tex, main.pdf, main.bbl, custom.bib
-│   ├── figures/                      (vector PDFs used by the paper)
-│   └── make_figures.py               (regenerates paper PDFs from CSVs)
-├── arxiv_submission/                 (de-anonymized arXiv preprint package)
-│   ├── main.tex, main.pdf, main.bbl, custom.bib
-│   ├── figures/                      (vector PDFs used by the preprint)
-│   └── make_figures.py               (same CSV-backed figure pipeline)
 └── data/
     ├── README.txt                    (package contents + CSV ↔ paper mapping)
     ├── csv/                          (65 CSV outputs)
-    ├── figures/                      (PNGs)
     └── summaries/final_reproduction_summary.md
 ```
 
@@ -67,20 +58,10 @@ Some model checkpoints are gated on Hugging Face (Gemma family). Set `HF_TOKEN` 
 Open `code/semantic_stroop_final_end_to_end_reproduction.ipynb` in Jupyter or Colab and run all cells. The notebook is end-to-end deterministic given a fixed seed (recorded in the notebook). It saves:
 
 - CSVs into a `csv/` subdirectory
-- PNG figures into `figures/`
 - Markdown summaries
 - A final zip archive that mirrors `data/`
 
 If you only need to regenerate the random-source control's per-item logit decomposition, run `code/mechanism_random_controls_logit_decomp.ipynb` separately — it is self-contained and reuses the same item-level seeds.
-
-### Regenerating the paper figures
-
-```bash
-cd emnlp_submission/
-python make_figures.py
-```
-
-By default, `make_figures.py` reads from `../data/csv/` in this repository and writes vector PDFs into the submission folder's `figures/` directory. The same command works from `arxiv_submission/`. If your CSVs live somewhere else, set `SEMANTIC_STROOP_CSV_DIR` to that `csv/` directory before running the script.
 
 ---
 
@@ -110,23 +91,6 @@ The opening paragraph of the appendix maps CSV column names (`source_all`, `def_
 - **Single-token mechanism subset.** Activation patching uses a single-token target/distractor subset so the final-position logit-difference readout is clean. Multi-token items are kept for the behavioral analysis with a token-count regression covariate.
 - **Clean vs corrupted prompts.** In the mechanism pipeline, the "clean" run is the matched neutral prompt and the "corrupted" run is the lexical-conflict prompt; recovery R measures how much patching clean source activations into the corrupted run restores the neutral-prompt target–distractor margin.
 - **Deterministic seeds.** Split validation and item-mismatched controls use a fixed seed recorded in the notebook; the CSVs in the data package are the exact outputs of that seeded run.
-
----
-
-## Citation
-
-```bibtex
-@article{wang2026priors,
-  title         = {Priors Persist Through Suppression: A Stroop Paradigm for Lexical Override},
-  author        = {Wang, Han-yu},
-  year          = {2026},
-  eprint        = {XXXX.XXXXX},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.CL},
-}
-```
-
-`eprint` will be filled in once the arXiv preprint is live.
 
 ---
 
