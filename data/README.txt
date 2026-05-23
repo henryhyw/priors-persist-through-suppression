@@ -4,7 +4,6 @@ Semantic Stroop — Reproduction Data Package
 Companion artifact for:
 
   Priors Persist Through Suppression: A Stroop Paradigm for Lexical Override
-  Han-yu Wang, 2026
 
 This package contains the CSV outputs, figures, and summary that reproduce
 every numerical result in the manuscript. The notebook that generates

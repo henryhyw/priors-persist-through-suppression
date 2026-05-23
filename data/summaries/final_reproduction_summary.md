@@ -1,13 +1,5 @@
 # Semantic Stroop Final Reproduction Summary
 
-
-Run ID: `20260510_014212`
-
-
-Output directory: `semantic_stroop_final_reproduction_20260510_014212`
-
-
-
 ## Mechanism run log
 
 
