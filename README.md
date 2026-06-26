@@ -2,7 +2,7 @@
 
 A Stroop Paradigm for Lexical Override.
 
-This repository contains the manuscript source, code, and reproduction data package for the paper.
+This repository contains the source code and reproduction data package for the paper.
 
 ---
 
